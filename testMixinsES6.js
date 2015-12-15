@@ -11,7 +11,7 @@ var enableDisable = {
 var io = {
   toString: function() {
     return this.descripcion + " - Activo: " + this.activo;
-  }
+  },
 
   superFuncion: function() {
     return "superFuncionDelMixin"
